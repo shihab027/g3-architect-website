@@ -44,7 +44,8 @@ nav li{
     font-weight: 700;
     color: #131313;
  }
- .banner-description{
+ /* sheared styles */
+ .text-light-gray{
     font-weight: 400;
     color: #727272;
  }
@@ -70,7 +71,7 @@ nav li{
  /* main section styles */ 
     main{
         max-width: 1440px;
-        margin: 0 auto;
+        margin: 70px auto;
     }
 
     /* teams styles */
@@ -106,8 +107,15 @@ nav li{
     header{
         padding: 20px;
     }
-    nav {
+    nav, .teams-container  {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
  }
 
@@ -116,7 +124,8 @@ nav li{
     header{
         padding: 50px;
     }
-    nav {
+    nav, .teams-container {
         flex-direction: column;
     }
+ 
  }
